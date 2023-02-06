@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    max-width: 1024;
+
+
+}
+
+body {
+    background-image: url(./bg1.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+
+nav .navitems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+
+}
+
+nav {
+
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.header__detalis {
+    padding: 30px 20px;
+}
+
+
+.name {
+    font-size: 82px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding-bottom: 20px;
+    position: relative;
+    right: -585px;
+    bottom: -160px;
+}
+
+.description {
+    position: relative;
+    right: -30px;
+    bottom: -160px;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    text-align: center;
+}
+
+.btn {
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    padding: 10px 40px;
+    margin-top: 30px;
+    position: relative;
+    right: -700px;
+    bottom: -160px;
+
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+/*
+.Services {
+    background-image: url(./bg2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-left: -20px;
+    margin-right: -20px;
+    bottom: -650px;
+}
+*/
+.Services__heading p {
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: 70px;
+    position: relative;
+    right: -480px;
+    top: 250px;
+}
+
+.Services__heading h2 {
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    right: -420px;
+    top: 250px;
+    padding: 30px;
+}
+
+.lang {
+    position: relative;
+    padding: 60px;
+    right: -340px;
+    top: 250px;
+}
+
+.profile img {
+    position: relative;
+    padding: 40px;
+    right: -300px;
+    top: 300px;
+
+}
+
+.des h1 {
+    position: relative;
+    right: -740px;
+    top: -120px;
+    font-size: 60px;
+    color: white;
+}
+
+.des p {
+
+    position: relative;
+    right: -740px;
+    top: -120px;
+    font-size: 24px;
+    color: white;
+}
+
+.Services button {
+    background-color: transparent;
+    border-color: rgb(255, 255, 255);
+    border-width: 3px;
+    padding: 10px 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    position: relative;
+    right: -740px;
+    top: -90px;
+}
+
+.reviews h2 {
+    color: white;
+    font-size: 65px;
+    position: relative;
+    right: -700px;
+    top: 20px;
+}
+
+.reviews h4 {
+    color: white;
+    font-size: 25px;
+    position: relative;
+    padding: 20px;
+    right: -769px;
+    top: 20px;
+}
+
+.reviews h3 {
+    color: white;
+    font-size: 45px;
+    position: relative;
+    right: -700px;
+    top: 20px;
+}
+
+.reviews img {
+    position: relative;
+    right: -200px;
+    top: 40px;
+}
+
+.add {
+
+    margin-left: 150px;
+    margin-top: 160px;
+}
